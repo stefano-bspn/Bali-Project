@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+nav {
+  margin: 0 50px;
+  padding-top: 60px;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.logo {
+  width: 100px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.336);
+  backdrop-filter: blur(10px);
+  box-shadow: -10x 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
+}
+
+/* Main section */
+
+h1 {
+  /* Set h1 and p globally */
+  color: white;
+  font-family: "Inter";
+  font-weight: 600;
+  cursor: default;
+}
+
+p {
+  color: white;
+  font-family: "Inter";
+  font-weight: 280;
+  font-size: 15px;
+  cursor: default;
+}
+
+/* 1st Image section */
+.container-1 {
+  min-height: 100vh;
+  background-image: url(../images/2-1bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-1 .content {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+/* End of 1st Image section */
+
+/* 2nd image section */
+.container-2 {
+  min-height: 100vh;
+  background-image: url(../images/2-2bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-2 .content {
+  padding-right: 70px;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+}
+
+/* End of 2nd image section */
+
+/* 3rd image section */
+.container-3 {
+  min-height: 100vh;
+  background-image: url(../images/2-3bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-3 .content {
+  padding-top: 155px;
+  padding-left: 70px;
+}
+.container-3 button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 30px;
+  font-size: 1rem;
+  font-family: "Inter";
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container-3 button:hover {
+  background-color: #ff4620;
+  color: white;
+}
+/* End of 3rd image section */
+
+/* 4th image section */
+.container-4 {
+  min-height: 100vh;
+  background-image: url(../images/2-4bg.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.container-4 .content {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.container-4 .content h1 {
+  font-size: 35px;
+}
+
+.container-4 .content p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+/* End of 4th image section */
+
+/* Footer section */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: "Inter";
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.social-icons img {
+  margin: 10px;
+  width: 20px;
+}
+
+#credit {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+/* Responsive layout for header */
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: flex;
+  }
+  nav {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+  .menu-button {
+    display: flex;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+  .logo {
+    width: 70px;
+  }
+}
+
+/* Responsive layout for content */
+@media (max-width: 800px) {
+  p {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  .container-1 .content {
+    margin-left: 20px;
+  }
+  .container-2 .content {
+    padding-right: 20px;
+  }
+  .container-3 .content {
+    padding-left: 20px;
+  }
+  .container-3 button {
+    padding: 5px 20px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  .container-4 .content h1 {
+    font-size: 20px;
+  }
+  .container-4 .content p {
+    font-size: 15px;
+  }
+}

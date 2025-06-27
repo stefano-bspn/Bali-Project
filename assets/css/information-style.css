@@ -1,0 +1,39 @@
+body {
+  background-color: #1e1e1e;
+  align-items: center;
+  position: absolute;
+}
+
+h1 {
+  color: white;
+  font-family: "Inter", Arial;
+}
+
+p {
+  color: white;
+  font-family: "Inter", Arial;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 40px;
+  font-size: 20;
+  font-family: "Inter";
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4620;
+}
+
+.content {
+  margin-top: 80%;
+  margin-left: 20px;
+}

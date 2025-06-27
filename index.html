@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Beautiful of Bali</title>
+    <link rel="stylesheet" href="assets/css/index-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaisei+Decol:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img src="assets/images/Close.svg" alt="Close sidebar"
+          /></a>
+        </li>
+        <li><a href="pages/destination.html">Destinations</a></li>
+        <li><a href="pages/information.html">About Us</a></li>
+        <li><a href="pages/information.html">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="index.html"
+            ><img src="assets/images/Logo.svg" alt="Logo" class="logo"
+          /></a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="pages/destination.html">Destinations</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="pages/information.html">About Us</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="pages/information.html">Contact Us</a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><img src="assets/images/Menu.svg" alt="Show menu" /></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="main">
+      <h1>The Islands of the Gods</h1>
+      <p>Discover the Beauty of Bali</p>
+      <a href="pages/get-started.html"
+        ><button type="button">Get Started</button></a
+      >
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
