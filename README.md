@@ -63,7 +63,7 @@ Jika kamu ingin menjalankan proyek ini di komputermu sendiri, ikuti langkah beri
 
 1.  **Clone repository ini:**
     ```bash
-    git clone [https://github.com/stefano-bspn/Bali-Project.git](https://github.com/stefano-bspn/Bali-Project.git)
+    git clone https://github.com/stefano-bspn/Bali-Project.git
     ```
 2.  **Buka file `index.html`:**
     Navigasi ke folder proyek dan buka file `index.html` langsung di browser favoritmu.
