@@ -38,10 +38,10 @@ Proyek ini dibangun menggunakan teknologi web fundamental:
 Bali-Project/
 ├── assets/
 │   ├── css/
-│   │   ├── Destination-style.css
-│   │   ├── Get Started-stye.css
-│   │   ├── Information-style.css
-│   │   └── index-style.css
+│   │   ├── destination-style.css
+│   │   ├── get-started-stye.css
+│   │   ├── index-style.css
+│   │   └── information-style.css 
 │   ├── images/
 │   │   └── (Semua aset gambar)
 │   └── js/
